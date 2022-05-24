@@ -36,8 +36,18 @@ class Picomotor(object):
 
 
 motors = [
-    Picomotor('side probe x', ('192.168.1.55', 23), 3),
-    Picomotor('side probe y', ('192.168.1.55', 23), 4),
+#    Picomotor('side probe x', ('192.168.1.55', 23), 3),
+#    Picomotor('side probe y', ('192.168.1.55', 23), 4),
+    Picomotor('H1 input x', ('192.168.1.12', 23), 3),
+    Picomotor('H1 input y', ('192.168.1.12', 23), 4),
+    Picomotor('H1 retro x', ('192.168.1.20', 23), 1),
+    Picomotor('H1 retro y', ('192.168.1.20', 23), 2),
+    Picomotor('H2 input x', ('192.168.1.12', 23), 1),
+    Picomotor('H2 input y', ('192.168.1.12', 23), 2),
+    Picomotor('H2 retro x', ('192.168.1.20', 23), 3),
+    Picomotor('H2 retro y', ('192.168.1.20', 23), 4),
+    Picomotor('V  input x', ('192.168.1.22', 23), 1),
+    Picomotor('V  input y', ('192.168.1.22', 23), 2),
     ]
 
 
